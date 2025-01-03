@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مرحباً بك في</title>
+    <style>
+        body {
+            background-color: #f7fafc;
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .header,
+        .footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #f7fafc;
+            color: #718096;
+        }
+
+        .content {
+            padding: 1.5rem;
+        }
+
+        .content h1 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2d3748;
+        }
+
+        .content p {
+            color: #4a5568;
+            margin-top: 1rem;
+            line-height: 1.5;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+
+        .button {
+            background-color: #4299e1;
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            text-decoration: none;
+        }
+
+        .footer a {
+            color: #4299e1;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>مرحباً بك  </h1>
+            <p>{{date}}</p>
+
+            <p>
+                 متحمسون للترحيب بك 
+            </p>
+            <p>
+                للبدء، كل ما عليك فعله هو النقر على الزر أدناه لتسجيل الدخول إلى حسابك:
+            </p>
+
+            <div class="button-container">
+                <a href="{{frontEndUrl}}" class="button">ابدأ الآن</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>
+                إذا كان لديك أي استفسارات، لا تتردد في <a href="mailto:support@support.com">الاتصال بفريق الدعم الخاص
+                    بنا</a>.
+            </p>
+            <p>فريق </p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 أنس ورديني. جميع الحقوق محفوظة.</p>
+        </div>
+    </div>
+</body>
+
+</html>
